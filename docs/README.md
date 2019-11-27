@@ -2,9 +2,9 @@
 home: true
 heroImage: /img/李宗伟.jpg
 heroText: 用速度战胜，用力量压倒
-tagline: Meet 1000 Books & Unit Them Into 1 Wiki
-actionText: Get Wiki →
-actionLink: /note/
+tagline: 生活在于记录和分享
+actionText: Start
+actionLink: /javascript进阶/
 features:
 - title: Wiki - 求索
   details: 基于书签对知识点进行 整理，吸收，吐纳，归档。吾将上下而求索...
@@ -15,4 +15,3 @@ features:
 footer: MIT Licensed | Copyright © 2019.01.11-present HMC
 ---
 
-# Hello VuePress
