@@ -7,40 +7,41 @@ module.exports = {
     base: '/HMC-VUEPRESS-NOTE/',
     themeConfig: {
         nav: [
-            {
-                text:'首页',
-                link:'/'
-            },
-            {
-                text: 'HMC NOTE',
-                items: [
-                    { text: 'vue', link: '/note/vue/' },
-                    { text: 'javascript', link: '/note/javascript' },
-                    { text: 'css', link: '/note/css' },   
-                ]
-            },
-            {
-                text: 'H5标准',
-                link: '/Standard/'
-            },
+            { text: '首页', link:'/'},
+            { text: 'javascript进阶', link: '/javascript进阶/' },
+            { text: 'css进阶', link: '/css进阶/' },
         ],
         sidebar: {
-            '/note/': [
-              'vue',
-              'javascript',
-              'css',
+            '/javascript进阶': [
+                {
+                    title:'第一章：DOM',
+                    collapsable: true,
+                    children:[
+                        'javascript进阶/DOM/js上传文件的方式',
+                        'javascript进阶/DOM/vue-cli脚手架快速搭建项目',
+                    ]
+                },
+                {
+                    title:'第二章：JS进阶',
+                    collapsable: true,
+                    children:[
+                        'javascript进阶/javascript高级/深拷贝和浅拷贝的实现',
+                        'javascript进阶/javascript高级/promise的实现',
+                    ]
+                },
             ],
-            '/standard/':[
-                ['H5版本管理规范','H5版本管理规范'],
-                ['H5开发规范','H5开发规范']
+            '/css进阶': [
+                {
+                    title:'第一章：基线，line-height和vertical-align',
+                    collapsable: true,
+                    children:[
+                        'css进阶/chapter1/line-height和vertical-align',
+                        'css进阶/chapter1/temp',
+                    ]
+                },
             ]
-            // '/note/test/': [
-            //   'child1',
-            //   'child2'
-            // ]
-        },
-        sidebarDepth:2
-      
-    }
+        }
+    },
+    sidebarDepth:2
     
 }
