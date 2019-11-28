@@ -22,11 +22,44 @@ module.exports = {
                     ]
                 },
                 {
-                    title:'第二章：JS进阶',
+                    title:'第二章：JS常用代码原理实现',
                     collapsable: true,
                     children:[
-                        'javascript进阶/javascript高级/深拷贝和浅拷贝的实现',
-                        'javascript进阶/javascript高级/promise的实现',
+                        ['javascript进阶/javascript原理实现/深拷贝和浅拷贝的实现','1.深拷贝和浅拷贝的实现'],
+                        ['javascript进阶/javascript原理实现/不同继承方式的实现','2.不同继承方式的实现'],
+                        ['javascript进阶/javascript原理实现/DOM树的深度和广度遍历','3.DOM树的深度和广度遍历'],
+                        ['javascript进阶/javascript原理实现/this指向和call,apply,bind,new的实现','4.this指向和call,apply,bind,new的实现'],
+                        'javascript进阶/javascript原理实现/promise的实现',
+                    ]
+                },
+                {
+                    title:'第三章：JS深入',
+                    collapsable: true,
+                    children:[
+                        ['javascript进阶/javascript深入/原型和原型链','1.原型和原型链'],
+                        ['javascript进阶/javascript深入/JS事件循环执行机制','2.JS事件循环执行机制'],
+                        ['javascript进阶/javascript深入/JS执行机制深入总结','3.JS执行机制深入总结'],
+                    ]
+                },
+                {
+                    title:'第四章：JS设计模式',
+                    collapsable: true,
+                    children:[
+                        ['javascript进阶/JS设计模式/1.单例模式','1.单例模式'],
+                        ['javascript进阶/JS设计模式/2.策略模式','2.策略模式'],
+                        ['javascript进阶/JS设计模式/3.代理模式','3.代理模式'],
+                        ['javascript进阶/JS设计模式/4.迭代器模式','4.迭代器模式'],
+                        ['javascript进阶/JS设计模式/5.发布订阅模式','5.发布订阅模式'],
+                        ['javascript进阶/JS设计模式/6.命令模式','6.命令模式'],
+                        ['javascript进阶/JS设计模式/7.组合模式','7.组合模式'],
+                        ['javascript进阶/JS设计模式/8.模板方法模式','8.模板方法模式'],
+                        ['javascript进阶/JS设计模式/9.享元模式','9.享元模式'],
+                        ['javascript进阶/JS设计模式/10.职责链模式','10.职责链模式'],
+                        ['javascript进阶/JS设计模式/11.中介者模式','11.中介者模式'],
+                        ['javascript进阶/JS设计模式/12.装饰者模式','12.装饰者模式'],
+                        ['javascript进阶/JS设计模式/13.状态模式','13.状态模式'],
+                        ['javascript进阶/JS设计模式/14.适配器模式','14.适配器模式'],
+                        ['javascript进阶/JS设计模式/高阶函数','高阶函数']
                     ]
                 },
             ],
