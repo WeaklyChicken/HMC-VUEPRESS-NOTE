@@ -18,7 +18,6 @@ module.exports = {
                     collapsable: true,
                     children:[
                         'javascript进阶/DOM/js上传文件的方式',
-                        'javascript进阶/DOM/vue-cli脚手架快速搭建项目',
                     ]
                 },
                 {
@@ -29,7 +28,10 @@ module.exports = {
                         ['javascript进阶/javascript原理实现/不同继承方式的实现','2.不同继承方式的实现'],
                         ['javascript进阶/javascript原理实现/DOM树的深度和广度遍历','3.DOM树的深度和广度遍历'],
                         ['javascript进阶/javascript原理实现/this指向和call,apply,bind,new的实现','4.this指向和call,apply,bind,new的实现'],
-                        'javascript进阶/javascript原理实现/promise的实现',
+                        ['javascript进阶/javascript原理实现/获取函数中的参数','5.函数中的参数传递'],
+                        ['javascript进阶/javascript原理实现/数组去重,扁平, 最值','6.数组去重,扁平, 最值'],
+                        ['javascript进阶/javascript原理实现/for in 和for of循环和可迭代对象','7.for in 和for of循环和可迭代对象'],
+                        ['javascript进阶/javascript原理实现/throttle和debounce','8.throttle和debounce'],
                     ]
                 },
                 {
@@ -60,6 +62,23 @@ module.exports = {
                         ['javascript进阶/JS设计模式/13.状态模式','13.状态模式'],
                         ['javascript进阶/JS设计模式/14.适配器模式','14.适配器模式'],
                         ['javascript进阶/JS设计模式/高阶函数','高阶函数']
+                    ]
+                },
+                {
+                    title:'第五章：JS异步操作专题',
+                    collapsable: true,
+                    children:[
+                        ['javascript进阶/JS异步操作专题/promise,generator,async,await','1.promise, generator, async, await'],
+                        ['javascript进阶/JS异步操作专题/promise实现','2.Promise实现'],
+                        ['javascript进阶/JS异步操作专题/xhr,ajax,axios,fetch异步请求梳理','3.xhr, ajax, axios, fetch异步请求梳理'],
+                    ]
+                },
+                {
+                    title:'第六章：Vue 笔记',
+                    collapsable: true,
+                    children:[
+                        ['javascript进阶/Vue 笔记/Vue生命周期图示','1.Vue生命周期图示'],
+                        ['javascript进阶/Vue 笔记/Vue slot嵌套传递和render中的$slotScoped属性','2.Vue slot嵌套传递和render中的$slotScoped属性'],
                     ]
                 },
             ],

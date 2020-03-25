@@ -14,6 +14,6 @@ git commit -m 'update note'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果你想要部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:WeaklyChicken/HMC-VUEPRESS-NOTE.git master
+git push -f git@github.com:humingcong/HMC-VUEPRESS-NOTE.git master
 
 cd -
